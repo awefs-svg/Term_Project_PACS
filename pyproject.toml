@@ -1,0 +1,5 @@
+[project]
+name = "PACS"
+version = "0.1.0"
+requires-python = ">=3.11,<3.14"
+dependencies = ["numpy>=2,<3", "opencv-python-headless>=4.10,<5", "streamlit>=1.40,<2"]
