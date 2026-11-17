@@ -22,20 +22,18 @@ Python과 Streamlit을 활용해 의료영상의 등록, 조회, 영상처리 �
 
 또한 현재, 과거 영상은 버튼을 선택해 표시하며, 미리보기 이미지를 드래그 앤 드롭으로 여는 기능은 추후에 구현할 예정입니다.
 
-## 3. 개발 환경
-- Python 3.12
-- Streamlit
-- OpenCV
-- Numpy
-- uv
+## 3. 개발 및 실행 환경
+- **Language / Package Manager:** Python 3.12, `uv`
+- **Framework & Libraries:** Streamlit, OpenCV (`opencv-python-headless`), NumPy, Matplotlib/Plotly
+- **Auth & Database:** Firebase Authentication, Cloud Firestore, Firebase Storage (또는 JCloud 영구 볼륨)
+- **Deploy:** JCloud
 
-## 4. 실행 방법
-프로젝트 폴더에서 다음 명령어를 실행합니다.
-
-1. uv sync
-2. uv run streamlit run app.py
-
-실행 후 브라우저에서 http://localhost:8501로 접속합니다.
+## 4. 설치 및 로컬 실행 방법
+1. 저장소 클론 및 의존성 설치
+   ```bash
+   git clone [https://github.com/awefs-svg/Term_Project_PACS.git](https://github.com/awefs-svg/Term_Project_PACS.git)
+   cd Term_Project_PACS
+   uv sync
 
 ## 5. 초기 기능 사용 방법
 1. 오른쪽 워크리스트 영역에 PNG/JPEG 이미지를 업로드합니다.
